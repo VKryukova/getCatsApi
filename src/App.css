@@ -1,0 +1,45 @@
+.MyFirstApp {
+  text-align: center;
+  color: black;
+}
+
+.cat {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.Buttons {
+  width: 300px;
+  padding: 50px;
+  display: flex;
+  justify-content: space-around;
+  
+}
+
+.ButtonLike, .Next {
+  height: 80px;
+  width: 100px;
+  cursor: pointer;
+  border-radius: 10px;
+  border: none;
+  font-size: 18px;
+}
+
+.ButtonLike:hover, .Next:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.App-header {
+  background-color: #ffffff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(0, 0, 0);
+}
+
+
+
+
